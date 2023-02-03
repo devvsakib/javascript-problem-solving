@@ -10,6 +10,14 @@ There are many ways to solve a problem. This repository is a collection of diffe
 
 Each problem is in its own folder. Each folder contains a README.md file that describes the problem. The README.md file also contains a link to the solution. The solution is in the solution.js file.
 
+## Level Indicators
+
+The level indicators are used to indicate the difficulty of the problem. The indicators are:
+
+- **L-B** - Level Beginner
+- **L-I** - Level Intermediate
+- **L-A** - Level Advanced
+
 ## How to contribute
 
 If you have a solution to a problem, please submit a pull request. If you have a problem that you would like to see solved, please submit an issue.
@@ -29,5 +37,3 @@ Each solution is written in JavaScript. You can run the solutions in your browse
 
 ## Problems Collection
 You will find all the common/beginner level problems in this repository.
-
-
