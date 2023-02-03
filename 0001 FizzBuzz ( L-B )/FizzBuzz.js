@@ -11,4 +11,5 @@ function fizzBuzz(n) {
         }
     }
 }
+
 fizzBuzz(); // add number here
