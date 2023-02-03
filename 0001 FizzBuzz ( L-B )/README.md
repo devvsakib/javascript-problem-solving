@@ -1,4 +1,3 @@
-<!-- Describe FizzBuzz problem solving -->
 # FizzBuzz(L-B)
 
 ## Problem
@@ -32,10 +31,10 @@ for (let i = 1; i <= 100; i++) {
 - [GeeksforGeeks](https://www.geeksforgeeks.org/fizz-buzz-program-python/)
 - [StackOverflow](https://stackoverflow.com/questions/171765/what-is-the-best-way-to-implement-the-fizzbuzz-test)
 
-## Author
-- [GitHub](https://www.github.com/) 
-- [LinkedIn](https://www.linkedin.com/in/)
-- [Twitter](https://twitter.com/)
+## Problem Added By
+- [GitHub](https://www.github.com/devvsakib) 
+- [LinkedIn](https://www.linkedin.com/in/devvsakib)
+- [Twitter](https://twitter.com/devvsakib)
 
 
 ## Contributing
