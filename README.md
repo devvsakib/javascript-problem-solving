@@ -30,6 +30,17 @@ We will be glad if you add your problem and solution to this repository. Get sta
 5. Commit and push your changes
 6. Create a pull request
 
+### How to add a problem
+
+1. Create a new folder with the problem name. **ex: 0001 FizzBuzz ( L-B )**
+2. Create a README.md file in the folder.
+3. Add the problem description in the README.md file.
+5. Add the problem added by section in the README.md file.
+6. Add the Reference link in the README.md file.
+7. Create a solution file named YourProblemName.js in the folder. **ex: FizzBuzz.js** 
+
+> Follow this [file](https://github.com/devvsakib/javascript-problem-solving/blob/main/0001%20FizzBuzz%20(%20L-B%20)/README.md) for reference.
+
 
 ## How to run the solutions
 
