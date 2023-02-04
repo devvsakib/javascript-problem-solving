@@ -1,4 +1,4 @@
-let n = 12321;
+let n = -12321;
 
 if(palindrome(n)){
     console.log( n + " is a Palindrome number");
@@ -27,6 +27,10 @@ function palindrome(n){
 function palindromeTwoPointer(n){
     // convert the number to string
     let str = n.toString();
+     // if the number is negative, remove the negative sign from the string
+     if (str[0] === '-') {
+        return false;
+    }
     // create two pointers
     let start = 0;
     let end = str.length - 1;
