@@ -8,7 +8,7 @@ Since the 100th fibonacci number larger than maximum integer you need to use [Bi
 
 This must be fast when running `MemoizedNthNumberFibonacci(100)`
 
-This must be faster than [NthNumberFibonacci](<../../L-B/0006%20NthNumberFibonacci%20(%20L-B%20)/>>)
+This must be faster than `NthNumberFibonacci`
 
 Fibonacci starts with `0` and `1`
 
