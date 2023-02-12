@@ -1,4 +1,4 @@
-##Problem:
+## Problem
 
 Implement a JavaScript function that implements a breadth-first search (BFS) algorithm to traverse a graph.
 
