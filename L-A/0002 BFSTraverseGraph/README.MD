@@ -1,6 +1,21 @@
+# 0002 BFSTraverseGraph ( L-A )
+
 ## Problem
 
 Implement a JavaScript function that implements a breadth-first search (BFS) algorithm to traverse a graph.
+
+
+## Test Cases
+const a = new Node('a');
+const b = new Node('b');
+const c = new Node('c');
+const d = new Node('d');
+const e = new Node('e');
+const f = new Node('f');
+
+- a.neighbors = [b, c, e]; console.log(bfs(a, 'f')); // false
+- b.neighbors = [d, e]; console.log(bfs(b, 'd')); // true
+- c.neighbors = [f]; console.log(bfs(c, 'f')); // true
 
 
 ## Solution
@@ -29,9 +44,11 @@ class Node {
     return false;
   }
   ```
-  
-  ## How it works
 
+## How it works
+
+-  We create a class called Node that takes a value and an array of neighbors as parameters.
+-  We create a function called bfs that takes a start node and a target node as parameters.
 -  We create a queue and add the start node to it.
 -  We create a visited set to keep track of the nodes we have visited.
 -  We loop through the queue while it is not empty.
