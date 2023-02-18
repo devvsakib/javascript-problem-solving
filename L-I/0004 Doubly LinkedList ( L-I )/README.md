@@ -13,6 +13,6 @@ Create a LinkedList that has 4 methods
 
 - [Doubly LinkedList - Medium](https://medium.com/geekculture/doubly-linked-lists-javascript-b13cc21ca59d)
 
-## Problem Added By
+## Problem Added & Solved By
 
-- [GitHub](https://github.com/ziadeleraky)
+- [Ziad Eleraky](https://github.com/ziadeleraky)
