@@ -1,0 +1,15 @@
+{
+  "name": "0006-repeat-a-string",
+  "version": "1.0.0",
+  "description": "",
+  "main": "challenge.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.2.0"
+  }
+}
