@@ -4,11 +4,16 @@ repeat  a given string `str` for `num` of times, and return empty in case the nu
 
 #### Note: you are not allowd to use `.repeat()` method.
 
-## Test case:
+## For testing:
 
-- Input: 'abc', 3 => Output: 'abcabcabc'
-- Input: 'abc', 0 => Output: ''
-- Input: 'abc', -2 => Output: ''
+- run 
+```
+npm i
+```
+to install mocha library, then run
+```
+npm test
+```
 
 ## Solution:
 
@@ -24,4 +29,5 @@ const repeatStringNumTimes = (str, num) => {
 };
 ```
 
->- [click](https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/a/recursion) To lern more about recursion method 
+[click](https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/a/recursion) To lern more about recursion method 
+
