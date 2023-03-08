@@ -1,4 +1,4 @@
-# Problem 15 (L-B) ~ Area Of Triangle
+# Problem 16 (L-B) ~ Area Of Triangle
 
 ## Problem
 
