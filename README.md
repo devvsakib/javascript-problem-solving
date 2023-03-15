@@ -39,7 +39,7 @@ We will be glad if you add your problem and solution to this repository. Get sta
 6. Add the Reference link in the README.md file.
 7. Create a solution file named YourProblemName.js in the folder. **ex: FizzBuzz.js** 
 
-> Follow this [file](https://github.com/devvsakib/javascript-problem-solving/blob/main/0001%20FizzBuzz%20(%20L-B%20)/README.md) for reference.
+> Follow this [file](https://github.com/devvsakib/javascript-problem-solving/blob/main/README_template_for_solution.md) for reference.
 
 
 ## How to run the solutions
