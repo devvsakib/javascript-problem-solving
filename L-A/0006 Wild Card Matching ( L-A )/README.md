@@ -1,4 +1,4 @@
-# 0005 Trapping Rain Water ( L-A )
+# 0006 Wild Card Matching ( L-A )
 
 ## Problem
 
