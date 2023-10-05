@@ -70,5 +70,5 @@ While the function is waiting for the yielded promise to resolve, cancel() is ca
 
 ## Constraints:
 
-`cancelledAt == null or 0 <= cancelledAt <= 1000`
+`cancelledAt == null or 0 <= cancelledAt <= 1000`<br>
 `generatorFunction` returns a generator object
