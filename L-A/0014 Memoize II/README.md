@@ -46,3 +46,9 @@ Explanation:
 Merging two empty objects will always result in an empty object. The 2nd and 3rd third function calls result in a cache-hit. This is because every object passed in is identical.
 ```
 
+### Constraints:
+```javascript
+1 <= inputs.length <= 105
+0 <= inputs.flat().length <= 105
+inputs[i][j] != NaN
+```
