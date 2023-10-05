@@ -1,5 +1,5 @@
 # The Fiscal Code
-**[Edabit Solution](https://edabit.com/challenge/Pa2rHJ6KeRBTF28Pg)**
+**[Edabit Problem](https://edabit.com/challenge/Pa2rHJ6KeRBTF28Pg)**
 
 Each person in Italy has an unique identifying ID code issued by the national tax office after the birth registration: the Fiscal Code ([Codice Fiscale](https://en.wikipedia.org/wiki/Italian_fiscal_code_card)).
 
