@@ -52,3 +52,18 @@ Merging two empty objects will always result in an empty object. The 2nd and 3rd
 0 <= inputs.flat().length <= 105
 inputs[i][j] != NaN
 ```
+
+## Approach:
+Map is perfect for storing single argument. Each consecutive argument must have cache based on previous argument, which will form a tree like structure, like this:
+```javascript
+fn(1,3,4) // { 1: { 3: { 4: {}}}};
+fn(1,4,3) // { 1: { 3: { 4: {}}, 4: { 3: {}}}};
+```
+The only problem, is how do we store our result. It's been never stated, that memoized function will be called with the same amount of arguments every time. We need a way to store our result anywhere on the path and also make sure that it will never be misteaken with argument. Here is example.
+```javascript
+fn(1,3) // { 1: { 3: 4}};
+-> 4
+fn(1)   // { 1: { 3: 4}};
+-> { 3: 4 } // returning cache branch as result
+```
+There are different aproaches to overcome this. But since every Symbol() call is guaranteed to return a unique Symbol we can use it to store actual result with guarantee, that it will never match any argument.
