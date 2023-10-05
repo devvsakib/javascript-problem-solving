@@ -30,7 +30,7 @@ generatorFunction = function*() {
 }
 cancelledAt = 100
 ```
-**Output:** {"resolved": 42}
+**Output:** `{"resolved": 42}`<br>
 **Explanation:**
 ```javascript
 const generator = generatorFunction();
@@ -50,7 +50,7 @@ generatorFunction = function*() {
 }
 cancelledAt = null
 ```
-**Output:** {"rejected": "Error: Hello"}
+**Output:** `{"rejected": "Error: Hello"}`<br>
 **Explanation:**
 A promise is yielded. The function handles this by waiting for it to resolve and then passes the resolved value back to the generator. Then an error is thrown which has the effect of causing the promise to reject with the same thrown error.
 
@@ -64,7 +64,7 @@ generatorFunction = function*() {
 }
 cancelledAt = 100
 ```
-**Output:** {"rejected": "Cancelled"}
+**Output:** `{"rejected": "Cancelled"}`<br>
 **Explanation:**
 While the function is waiting for the yielded promise to resolve, cancel() is called. This causes an error message to be sent back to the generator. Since this error is uncaught, the returned promise rejected with this error.
 
