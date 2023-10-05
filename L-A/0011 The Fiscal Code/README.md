@@ -5,7 +5,7 @@ Each person in Italy has an unique identifying ID code issued by the national ta
 
 Given an object containing the personal data of a person (name, surname, gender and date of birth) return the 11 code characters as a string following these steps:
 
--Generate 3 capital letters from the surname, if it has:
+- Generate 3 capital letters from the surname, if it has:
 
   - At least 3 consonants then the first three consonants are used. (Newman -> NWM).
   - Less than 3 consonants then vowels will replace missing characters in the same order they appear (Fox -> FXO | Hope -> HPO).
