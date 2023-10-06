@@ -18,60 +18,44 @@ You may not alter the values in the list's nodes, only nodes themselves may be c
  
 ## Solution
 ```javascript
-class Solution {
-public:
-    ListNode* reverseKGroup(ListNode* head, int k) {
-        ListNode* dummy = new ListNode(0);
-        dummy->next = head;
-        ListNode* prevGroupTail = dummy;
-        
+var reverseKGroup = function(head, k) {
+    var dummy = new ListNode(0);
+        dummy.next = head;
+        var prevGroupTail = dummy;
+
         while (head) {
-            ListNode* groupStart = head;
-            ListNode* groupEnd = getGroupEnd(head, k);
-            
-            if (!groupEnd) {
-                break; // Remaining nodes are less than k, so no need to reverse
-            }
-            
-            ListNode* nextGroupStart = groupEnd->next;
-            groupEnd->next = nullptr; // Separate the group to be reversed
-            
-            // Reverse the group
-            prevGroupTail->next = reverseList(groupStart);
-            groupStart->next = nextGroupStart;
-            
+            var groupStart = head;
+            var groupEnd = getGroupEnd(head, k);
+
+            if (!groupEnd)
+                break;
+
+            prevGroupTail.next = reverseList(groupStart, groupEnd.next);
             prevGroupTail = groupStart;
-            head = nextGroupStart;
+            head = prevGroupTail.next;
         }
-        
-        ListNode* newHead = dummy->next;
-        delete dummy;
-        return newHead;
+    var newHead = dummy.next;
+    return newHead;
+}
+
+var getGroupEnd = function(head, k) {
+    while (head && k > 1) {
+        head = head.next;
+        k--;
     }
-    
-private:
-    ListNode* getGroupEnd(ListNode* head, int k) {
-        while (head && k > 1) {
-            head = head->next;
-            k--;
-        }
-        return head;
+    return head;
+}
+
+var reverseList = function(head, stop) {
+    var prev = stop;
+    while (head !== stop) {
+        var next = head.next;
+        head.next = prev;
+        prev = head;
+        head = next;
     }
-    
-    ListNode* reverseList(ListNode* head) {
-        ListNode* prev = nullptr;
-        ListNode* curr = head;
-        
-        while (curr) {
-            ListNode* next = curr->next;
-            curr->next = prev;
-            prev = curr;
-            curr = next;
-        }
-        
-        return prev;
-    }
-};
+    return prev;
+}
 ```
 ## How it works
 ### Approach
