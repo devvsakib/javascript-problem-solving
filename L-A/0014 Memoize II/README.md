@@ -71,3 +71,10 @@ There are different aproaches to overcome this. But since every Symbol() call is
 ## Problem Added By
 
 - [deveshidwivedi](https://github.com/deveshidwivedi)
+
+
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
