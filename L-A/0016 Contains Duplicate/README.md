@@ -1,4 +1,4 @@
-# Longest Valid Parentheses
+# Contains Duplicate
 [LeetCode Problem]https://leetcode.com/problems/contains-duplicate-iii/description/
 
 You are given an integer array nums and two integers indexDiff and valueDiff.
